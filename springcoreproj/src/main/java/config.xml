@@ -10,9 +10,7 @@
 
     <!-- this is our beans -->
     <bean class="com.springcoretut.springcoreproj.Student" name="student1">
-        <property name="studentId">
-            <value>1234</value>
-        </property>
+        <property name="studentId" value="12345" />
         <property name="studentName">
             <value>Vivek</value>
         </property>
@@ -20,4 +18,8 @@
             <value>Kolkata</value>
         </property>
     </bean>
+
+    
+
+    
 </beans>
