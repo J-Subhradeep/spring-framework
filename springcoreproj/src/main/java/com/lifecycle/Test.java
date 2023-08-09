@@ -11,6 +11,9 @@ public class Test {
         System.out.println(s);
         Pepsi p = (Pepsi) context.getBean("p1");
         System.out.println(p);
+
+        People people = (People) context.getBean("people1");
+        System.out.println(people);
         // registering shutdown hook
         context.registerShutdownHook();
     }
