@@ -12,6 +12,9 @@
     <bean class="com.lifecycle.Samosa" name="s1" init-method="init" destroy-method="destroy">
         <property name="price" value="8"></property>
     </bean>
+    <bean class="com.lifecycle.Pepsi" name="p1">
+        <property name="price" value="80"></property>
+    </bean>
 
 
 </beans>
