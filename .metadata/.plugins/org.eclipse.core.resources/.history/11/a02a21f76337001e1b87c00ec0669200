@@ -8,6 +8,5 @@ public class Test {
         ApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/collection/collectionconfig.xml");
         Emp emp = (Emp) context.getBean("emp1");
         System.out.println(emp);
-        System.out.println(emp.getPhones().getClass());
     }
 }
