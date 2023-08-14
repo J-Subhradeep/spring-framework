@@ -4,11 +4,19 @@ public class Student {
 	
 	private String name;
 	private String city;
+	private int id=0;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public Student( String name, String city) {
 		super();
 		
 		this.name = name;
 		this.city = city;
+		
 	}
 	public Student() {
 		super();
@@ -16,6 +24,12 @@ public class Student {
 	}
 
 
+	public Student(String name, String city, int id) {
+		super();
+		this.name = name;
+		this.city = city;
+		this.id = id;
+	}
 	public String getName() {
 		return name;
 	}
@@ -30,7 +44,7 @@ public class Student {
 	}
 	@Override
 	public String toString() {
-		return "Student [" + " name=" + name + ", city=" + city + "]";
+		return "Student [name=" + name + ", city=" + city + ", id=" + id + "]";
 	}
 	
 }
